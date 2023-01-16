@@ -10,8 +10,9 @@ Classe em PHP para validação de CPF e CNPJ.
 
 ## Instalação
 Via [Composer](http://getcomposer.org)
+`composer config repositories.bissolli/validador-cpf-cnpj github https://github.com/R-DIGITAL/CustomFrontPrice-M2.git`
 ```bash
-composer require bissolli/validador-cpf-cnpj
+composer require bissolli/validador-cpf-cnpj:dev-main
 ```
 
 
