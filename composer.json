@@ -1,5 +1,5 @@
 {
-    "name": "bissolli/validador-cpf-cnpj",
+    "name": "magecommerce/validador-cpf-cnpj",
     "description": "Classe em PHP para validação de CPF e CNPJ.",
     "keywords": [
         "cnpj",
