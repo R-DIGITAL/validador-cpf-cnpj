@@ -30,7 +30,7 @@ class CNPJ extends DocumentoAbstract
     public function isValid()
     {
         // Check the size
-        if (strlen($this->value) != 14) {
+        if (strlen($this->value ?? '') != 14) {
             return false;
         }
 
