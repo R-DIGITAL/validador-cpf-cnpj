@@ -30,7 +30,7 @@ class CPF extends DocumentoAbstract
     public function isValid()
     {
         // Check the size
-        if (strlen($this->value) != 11) {
+        if (strlen($this->value ?? '') != 11) {
             return false;
         }
 
